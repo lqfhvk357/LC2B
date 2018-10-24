@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LC2B_Example' do
+  pod 'LC2B', :path => '../'
+
+  target 'LC2B_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
