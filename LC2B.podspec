@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LC2B'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'LC2B is a Cocoapods dome'
 
 # This description is used to generate tags and improve search results.
