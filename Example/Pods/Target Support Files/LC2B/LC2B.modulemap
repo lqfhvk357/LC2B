@@ -1,0 +1,6 @@
+framework module LC2B {
+  umbrella header "LC2B-umbrella.h"
+
+  export *
+  module * { export * }
+}
